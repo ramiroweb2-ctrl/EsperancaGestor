@@ -1,0 +1,69 @@
+{
+  "beneficiarios": [
+    {
+      "id": "demo-b1",
+      "nome": "Ana Souza (DADO FICTÍCIO)",
+      "cpf": "11144477735",
+      "telefone": "(14) 90000-0001",
+      "nascimento": "1988-04-12",
+      "endereco": "Rua das Flores, 100 - Garça/SP",
+      "observacoes": "Cadastro demonstrativo. Dados totalmente fictícios.",
+      "criadoEm": "2026-01-10T12:00:00.000Z"
+    },
+    {
+      "id": "demo-b2",
+      "nome": "Carlos Oliveira (DADO FICTÍCIO)",
+      "cpf": "52998224725",
+      "telefone": "(14) 90000-0002",
+      "nascimento": "1976-09-20",
+      "endereco": "Rua Esperança, 250 - Garça/SP",
+      "observacoes": "Cadastro demonstrativo. Dados totalmente fictícios.",
+      "criadoEm": "2026-01-12T12:00:00.000Z"
+    }
+  ],
+  "doadores": [
+    {
+      "id": "demo-d1",
+      "nome": "Mercado Bom Preço (FICTÍCIO)",
+      "telefone": "(14) 90000-0010",
+      "email": "contato@exemplo.org",
+      "tipo": "Empresa",
+      "observacoes": "Doador demonstrativo.",
+      "criadoEm": "2026-02-01T12:00:00.000Z"
+    }
+  ],
+  "voluntarios": [
+    {
+      "id": "demo-v1",
+      "nome": "João Martins (FICTÍCIO)",
+      "telefone": "(14) 90000-0020",
+      "email": "joao@exemplo.org",
+      "disponibilidade": "Sábados",
+      "atividade": "Organização de doações",
+      "criadoEm": "2026-02-02T12:00:00.000Z"
+    }
+  ],
+  "doacoes": [
+    {
+      "id": "demo-do1",
+      "descricao": "Cesta básica demonstrativa",
+      "doador": "Mercado Bom Preço (FICTÍCIO)",
+      "tipo": "Alimentos",
+      "valor": "150",
+      "data": "2026-03-05",
+      "criadoEm": "2026-03-05T12:00:00.000Z"
+    }
+  ],
+  "entregas": [
+    {
+      "id": "demo-e1",
+      "beneficiario": "Ana Souza (DADO FICTÍCIO)",
+      "descricao": "Cesta básica demonstrativa",
+      "quantidade": "1",
+      "data": "2026-03-10",
+      "status": "Entregue",
+      "observacoes": "Registro fictício para demonstração.",
+      "criadoEm": "2026-03-10T12:00:00.000Z"
+    }
+  ]
+}
