@@ -32,3 +32,26 @@ npm run dev
 Este projeto é uma versão acadêmica demonstrativa para execução local. Não é um sistema pronto para uso com dados reais: ainda não possui autenticação/login, perfis de acesso, criptografia de dados pessoais, banco de dados MySQL, rotina automática de backup ou publicação segura. Não cadastre dados pessoais reais antes de implementar essas proteções e realizar uma revisão técnica.
 
 Os registros são guardados em `server/data.json`. Faça cópia desse arquivo para preservar os cadastros. Para restaurar os dados fictícios iniciais, substitua o conteúdo pelo arquivo `server/dados-demonstracao.json`.
+
+## Como executar no Windows
+
+1. Instale o Node.js.
+2. Extraia o projeto no computador.
+3. Abra a pasta do projeto.
+4. Execute o arquivo INICIAR_NO_WINDOWS.bat.
+5. Aguarde a inicialização do frontend e da API.
+6. Acesse http://localhost:5173 no navegador.
+
+## Verificação da API
+
+Para verificar se a API está funcionando, acesse:
+
+http://localhost:3001/api/health
+
+O retorno esperado é:
+
+{"status":"ok"}
+
+## Dados de demonstração
+
+O projeto utiliza dados fictícios para fins acadêmicos.
